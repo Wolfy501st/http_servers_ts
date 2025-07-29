@@ -1,5 +1,5 @@
 {
-  "id": "0481d243-8c47-4b29-a47d-79468c81015e",
+  "id": "43680f84-e114-4aba-8fed-8e2da77fc6a6",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -166,6 +166,13 @@
           "primaryKey": false,
           "notNull": true,
           "default": "'unset'"
+        },
+        "is_chirpy_red": {
+          "name": "is_chirpy_red",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
         }
       },
       "indexes": {},
